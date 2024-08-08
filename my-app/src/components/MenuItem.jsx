@@ -25,7 +25,7 @@ const MenuItem = () => {
   if (!menuItems || !Array.isArray(menuItems) || menuItems.length === 0) {
     return <div>No menu items available.</div>;
   }
-
+  
   const groupedMenuItems = menuItems.reduce((groups, item) => {
     const { menuGroupName, menuItemName, menuItemId } = item;
     if (!groups[menuGroupName]) {
@@ -53,5 +53,4 @@ const MenuItem = () => {
     </aside>
   );
 };
-
 export default MenuItem;
