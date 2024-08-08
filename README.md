@@ -46,4 +46,5 @@ The application uses React for the frontend and Axios for making API requests.
 
 3. **Run The Application:**
  
-    npm start
+    npm start or npx react-scripts start
+
